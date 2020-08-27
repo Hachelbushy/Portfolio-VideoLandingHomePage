@@ -1,0 +1,17 @@
+@include mediaSm {
+  h1 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+}
+
+@include mediaMd {
+  h1 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+}
