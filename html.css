@@ -1,6 +1,6 @@
 .menu-btn {
   position: absolute;
-  z-index: 3;
+  z-index: 10;
   right: 35px;
   top: 35px;
   cursor: pointer;
@@ -148,7 +148,7 @@ main {
       margin-top: 20vh; }
 
 .content {
-  z-index: 10; }
+  z-index: 9; }
 
 .video-container {
   z-index: -1;
