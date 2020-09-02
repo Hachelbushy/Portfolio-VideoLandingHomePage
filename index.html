@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
@@ -16,6 +16,12 @@
 
 <body id="bg-img">
 <header>
+    <ul>
+        <div class="langWrap">
+            <a href="#" lang="pl" class="active">PL</a>
+            <a href="#" lang="en">EN</a>
+        </div>
+    </ul>
     <div class="menu-btn">
         <div class="btn-line"></div>
         <div class="btn-line"></div>
@@ -28,27 +34,27 @@
         </div>
         <ul class="menu-nav">
             <li class="nav-item current">
-                <a href="index.html" class="nav-link">
+                <a href="index.html" class="nav-link" id="navLinkHome">
                     Strona Główna
                 </a>
             </li>
             <li class="nav-item">
-                <a href="distribution/about.html" class="nav-link">
+                <a href="distribution/about.html" class="nav-link" id="navLinkAbout">
                     O Mnie
                 </a>
             </li>
             <li class="nav-item">
-                <a href="distribution/work.html" class="nav-link">
+                <a href="distribution/work.html" class="nav-link" id="navLinkWork">
                     Moja Praca
                 </a>
             </li>
             <li class="nav-item">
-                <a href="distribution/cv.html" class="nav-link">
+                <a href="distribution/cv.html" class="nav-link" id="navLinkCv">
                     Curriculum Vitae
                 </a>
             </li>
             <li class="nav-item">
-                <a href="distribution/contact.html" class="nav-link">
+                <a href="distribution/contact.html" class="nav-link" id="navLinkCont">
                     Nawiąż Kontakt Ze mną
                 </a>
             </li>
@@ -63,8 +69,8 @@
                 Mateusz
                 <span class="text-secondary">Zakrzewski</span>
             </h1>
-            <h2 class="sm-heading">
-                Web Developer, Programmer, Designer & Entrepreneur
+            <h2 class="smHeading">
+                Programista Stron Internetowych, Programista, Projektant & Przedsiębiorca
             </h2>
             <div class="icons">
                 <a href="https://www.instagram.com/mzakrzewski_dev/" target="_blank">
