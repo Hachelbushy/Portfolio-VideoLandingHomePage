@@ -219,6 +219,7 @@ main {
     border-bottom: #008B8B 5px solid; }
 
 .projects {
+  padding-right: 25px;
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }

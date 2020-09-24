@@ -92,7 +92,6 @@ main {
   z-index: 9;
 }
 
-
 .video-container {
   z-index: -1;
   position: absolute;
@@ -103,7 +102,6 @@ main {
   overflow: hidden;
   background: $primary-color url('distribution/img/cover.png') no-repeat center center/cover;
 }
-
 
 .video-container video {
   min-width: 100%;
@@ -168,6 +166,7 @@ main {
 
 // Work/Projects
 .projects {
+  padding-right: 25px;
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
